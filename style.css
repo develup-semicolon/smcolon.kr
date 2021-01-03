@@ -1,0 +1,146 @@
+:root {
+  --color-green: #17966c;
+  --color-light: #f5f5f5;
+  --color-dark: #171717;
+  overflow: auto;
+}
+.con{
+  background-color:#ffffff;
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+
+.text8 {
+  background: linear-gradient(to right, #36D1DC, #5B86E5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top:20px;
+  padding-bottom:20px;
+
+  line-height:90px;
+}
+.title{
+  padding:80px;
+}
+.header{
+  z-index: 1;
+  position: absolute;
+  top:50%;
+  margin-top: -50px;
+  margin-left: 70px;
+}
+.navbar { 
+  -webkit-transition:padding 0.2s ease;
+  -moz-transition:padding 0.2s ease; 
+  -o-transition:padding 0.2s ease;        
+  transition:padding 0.2s ease;  
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+}
+.header1{
+  color: rgba(255, 255, 255, 0.6);
+
+  z-index: 1;
+  font-size: 70px;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-dark{
+  padding: 80px;
+  color: #222;
+  font-weight: 900;
+  z-index: 1;
+  font-size: 50px;
+}
+.header-dark-2 {
+        padding: 30px;
+    color: #222;
+    font-weight: 600;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.light {
+    background-color: var(--color-light);
+}
+h2{
+    font-weight:900px;
+}
+
+@media ( max-width: 840px ) {
+
+h2{
+    font-size:38px;
+
+  }
+}
+
+@media ( max-width: 680px ) {
+
+h2{
+    font-size:30px;
+
+  }
+}
+
+@media (min-width: 992px) {
+			.navbar {
+				background-color: rgba(0,0,0,0) ; /* black fully transparent */
+				
+			}  
+		}
+
+ 
+
+header {
+  padding: 266px 0 200px;
+
+}
+
+section {
+  padding: 156px 0 150px;
+
+}
+
+
+b{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.text-1{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 75px;
+}
+
+.text-2{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 25px;
+  color:#000000;
+}
+
+.text-3{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 45px;
+  color:#000000;
+}
+
+.text-4{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 35px;
+  color:#000000;
+}
+
+.text-5{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  color:#000000;
+}
+
+.btn-1{
+  margin-top:50px;
+}
+
+.bg-black{
+  background-color:#000;
+}
